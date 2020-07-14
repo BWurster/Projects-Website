@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Student Design Projects</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .SDPcontent {
+      min-height: 600px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="topbanner">
+    <div class="aboutandcontact">
+      <a href="about.html">About</a>
+    </div>
+    <div class="aboutandcontact">
+      <a href="contact.html">Connect</a>
+    </div>
+    <div class="homebutton">
+      <a href="index.html">Ben Wurster Project Repository</a>
+    </div>
+  </div>
+
+  <div class="mainbar">
+    <a href="student-programming-projects.html">Student Programming Projects</a>
+    <a class="active" href="student-design-projects.html">Student Design Projects</a>
+    <a href="personal-programming-projects.html">Personal Programming Projects</a>
+    <a href="personal-design-projects.html">Personal Design Projects</a>
+  </div>
+
+  <div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'ME201 Wind Turbine')">Wind Turbine (November 2019,
+      ME201)</button>
+    <button class="tablinks" onclick="openTab(event, 'Strandbeest Mechanism')">Strandbeest Mechanism (April 2020,
+      ME231)</button>
+  </div>
+
+  <div id="ME201 Wind Turbine" class="tabcontent" style="display: block;">
+    <div class="reading SDPcontent">
+      <h1 style="line-height: .25;">Wind Turbine</h1>
+      <h3>Completed November 2019, ME201: Intro to Mechanical Engineering</h3>
+      <div class="imagecontainer">
+        <img src="Assets/ME201 Turbine/TurbineIsoView.jpg" class="oneimage">
+      </div>
+      <h3>Project Overview</h3>
+      <p>
+        This was my first college design project, and compared to my peers, I would say that mine was well constructed
+        and a bold shot at something unique. ME201 was an introductory class to give students a taste of what mechanical
+        engineering is about. As a result, the turbine project was performed without knowledge of concepts fundamental
+        to turbine design.
+      </p>
+      <p>
+        Most of my peers took an approach centered around catching the wind. While effective, I wanted to break from the
+        standard approach and do things differently. In the initial research of common designs, a bladed design was a
+        common occurence and I sought to explore such an approach.
+      </p>
+      <div class="imagecontainer">
+        <img src="Assets/ME201 Turbine/3TopView.jpg" class="twoimage" height="300px">
+        <img src="Assets/ME201 Turbine/6TopView.jpg" class="twoimage" height="300px">
+      </div>
+      <p>
+        I 3D printed the blades in vase mode to make them as light as possible, used thin wooden plates for the ends,
+        and designed clips for the ability to change the number and angle of the blades. One of the project requirements
+        was having variables that are changed between designs. Most people made four designs to accomodate two
+        variables, but I made one, universal design to cut material costs. In all, the project was less than a dollar
+        because we used scrap material and older filament that would otherwise go unused.
+      </p>
+      <p>
+        The turbine ended up being only moderately efficient compared to my fellow classmates, but I'm glad my project
+        wasn't excessively expensive and got the job done.
+      </p>
+    </div>
+  </div>
+
+  <div id="Strandbeest Mechanism" class="tabcontent">
+    <div class="reading SDPcontent">
+      <h1 style="line-height: .25;">Strandbeest Mechanism</h1>
+      <h3>Completed April 2020, ME231: Geometric Modeling for Design and Manufacturing</h3>
+      <div class="imagecontainer">
+        <iframe width="315" height="560" src="https://www.youtube.com/embed/fVfTRwHyHY0" class="twovid">
+        </iframe>
+        <iframe width="315" height="560" src="https://www.youtube.com/embed/fqm3rb20bj8" class="twovid">
+        </iframe>
+      </div>
+      <h3>Project Overview</h3>
+      <p>
+        ME231 was a fun little class to take that furthered and solidified my experience with 3D modeling and design. A
+        long time ago, I saw the Strandbeest mechanism by Theo Jansen and knew at some point I would make one. The
+        required project for this class was the construction of an existing mechanism which was perfect for me to
+        finally build a Strandbeest mechanism. While I considered making the whole walking structure, such a pursuit was
+        above and beyond the requirements, so I kept it simple and made one leg. I modeled and printed the parts and
+        fixed them together with M4 screws and nuts. The first time I produced the design, I found that I failed to
+        consider the height of the screws in the design. This was easily accomodated with minor file adjustments.
+      </p>
+      <p>
+        The final piece was as captivating as I imagined. At some point I also constructed the assembly of the full
+        structure with offset leg cycles in SolidWorks because it was a slight project extension and totally worth the
+        effort.
+      </p>
+      <div class="imagecontainer">
+        <iframe width="315" height="317" src="https://www.youtube.com/embed/SxgDG0L_eIc" class="onevid">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Don't mess with this; you don't understand it yet! -->
+  <script>
+    function openTab(evt, project) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(project).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+</body>
+
+</html>

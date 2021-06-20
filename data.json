@@ -1,0 +1,303 @@
+{
+    "projects":[
+        {"title":"Supreme Garage Door Opener",
+            "year":2018,
+            "month":"April",
+            "pictures":["Assets/Supreme Garage Door Opener/finalproduct.jpg"],
+            "videos":[],
+            "files":[],
+            "overview":["This project was done for a friend of mine whose garage door opener housing broke. He had initially contacted the garage door opener company to get it fixed but was advised to just buy a new one. To him, this seemed like a waste of perfectly functional electronics, so he asked me, knowing that I had a 3D printer and proficient 3D modeling skills, to design and manufacture a new case. I made a base design that met basic functionality standards; however, this lacked uniqueness and the utilization of rapid custom prototyping that 3D printing opens the door to. I asked if he wanted any unique elements to be added, and after some thought he settled on a Supreme branded garage door opener. I added the logo to the design and went the extra mile to paint it bright red in the standard Supreme fashion. Overall, this was an excellent little project to practice meeting the design contraints imparted not only by the manufacturer of the initial garage door opener but also by the intended client."],
+            "improvements":[],
+            "tags":["3D Printing", "3D Modeling"]
+        },
+        {"title":"Fortnite Clinger Prop",
+            "year":2018,
+            "month":"July",
+            "pictures":["Assets/Clinger/StuckClinger.jpg"],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "I was inspired to do this project by a slow night of minimum-wage labor in which I threw a small drain plunger at the wall and it proceeded to stick, much akin to the mechanics of the \"Clinger Grenade\" in the game Fortnite.",
+                "I ordered a drain plunger and proceeded to design parts that seemlessly integrated with the ordered part. This was done via two halves that encased the plunger handle and a top that screwed them together, simultaneously tightening the two halves. The parts were designed and printed with the intention of product expansion, but given that it was a fun project without much purpose or knowledge to gain, further development was not pursued."
+            ],
+            "improvements":{
+                "Addition of Electronics":"The intended product expansion was envisioned in the addition of electronics to make the prop functionally more similar to the in-game mechanics."
+            },
+            "tags":["3D Printing", "3D Modeling"]
+        },
+        {"title":"Tape Ball and Captain Band Display",
+            "year":2018,
+            "month":"November",
+            "pictures":[
+                "Assets/Tape Ball Stand/TapeBall1.jpg", 
+                "Assets/Tape Ball Stand/TapeBall2.jpg"],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "Over the course of 4 years of high school varsity soccer, a tradition emerged and was sustained: I wrapped my boot tape into an ever-accumulating ball. At the end of my high school career, the ball of tape was over 5 inches in diameter. This object serves as a reminder of my growth as a player and the idea that we build on the efforts of our past. Such an object deserves to be displayed in a way that reflects its personal importance.",
+                "The first iteration of the design was simply a stand for the ball. It accomplished exactly what I had intended it to do: provide an elagant display that puts the object at the center of attention. However, I felt that I could incorporate my captain band into the design, as it too held great personal meaning, representing the responsibility of leadership. As a result, I modified the design, showcasing the band and the tape ball in a minimal, elegant manner.",
+                "Tucked underneath the band is the list of my teammates that I had shared experiences with over the course of four years that I had written up prior to my last game. They all influenced me and deserve to be kept in mind for such contributions to my character. This piece is one of my designs of the greatest personal value, and I hope you understand and appreciate the importance of a well designed and thought out display."
+            ],
+            "improvements":{
+                "Use of less material":"The part was made hollow to conserve material. Despite this effort for conservation, I wanted the part to still feel robust, so I had decently thick walls. The walls ended up being almost too thick, so design iterations would take this into consideration and reduce plastic use. Future development will not occur, as replacing a functional part is contrary to the point of reducing material consumption."
+            },
+            "tags":["3D Printing", "3D Modeling"]
+        },
+        {"title":"Earbud Tip Case",
+            "year":2019,
+            "month":"January",
+            "pictures":["Assets/Earbud Tip Case/EarbudTipCase.png"],
+            "videos":[],
+            "files":[],
+            "overview":["This project was inspired by the need for a case for an assortment of earbud tips. I had 4 unique pairs, so I came up with a rotating design that leaves the slot of the tips in active use open while containing the other tips. Magnets were mounted discretely to prevent undesired rotation and the exposure of closed slots."],
+            "improvements":{
+                "Different shaped magnets":"I used small, round rare-earth magnets that I already had going unused. These were not an optimal choice; the polarity alignment and mounting of the magnets was much harder than that of a disk shape would have been.",
+                "Addition of compartment through holes":"There was noticable difficulty in removing the light-weight tips from the case due to vacuum pressure. Through holes would facilitate the removal of tips, and create a better functioning product."
+            },
+            "tags":["3D Printing", "3D Modeling"]
+        },
+        {"title":"Replacement Shovel Handle",
+            "year":2019,
+            "month":"March",
+            "pictures":["Assets/Shovel Handle/ShovelHandle.png"],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "The winter of 2019 was a tough time for my family, beginning with the sudden loss of both grandparents on my mom's side of the family. There is a shovel my family has that is from my mom's childhood. It holds great sentimental value to her which she has outwardly expressed on multiple occasions. In the late months of winter, my brother broke the plastic handle of the shovel. My mom was clearly devestated and set it by the garbage to be taken away. However, it quickly occured to me that my experience in 3D modeling and the ability to rapidly prototype with my 3D printer presented me with the opporotunity to try to make things better.",
+                "I collected the fragments of the broken handle and modeled the most identical handle I could, interfacing the part with the end of the remaining shovel. I sent the file to the printer, and within two days of the shovel breaking, it was fixed.",
+                "I will never forget my mom's reaction when I showed her the new handle, and I will never forget the emotions that overcame me as I hugged her and she began to cry. It was an unexplainable feeling in which I base much my passion for engineering. This project was small, short, and easy, but somehow it holds more value to me than anything else I have done. Fixing beyond that which is physical is something I seek to achieve as I progress deeper into my education and career."
+            ],
+            "improvements":{},
+            "tags":["3D Printing","3D Modeling"]
+        },
+        {"title":"Arc Reactor Halloween Costume",
+            "year":2019,
+            "month":"October",
+            "pictures":[
+                "Assets/Arc Reactor/ArcReactorCostume.jpg",
+                "Assets/Arc Reactor/ArcReactorTop.png",
+                "Assets/Arc Reactor/ArcReactorBack.png"
+            ],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "With the Halloween celebrations of my freshman year approaching, I was in desparate need of a simple yet captivating Halloween costume. I have always been a fan of the Marvel movies, so I settled on creating an Arc Reactor prop. It was a simple costume idea that was as comfortable as it was attention getting.",
+                "I modeled the parts and 3D printed them on my home machine. I calculated the resistor value to use for a parallel circuit with three blue LEDs to maximize their brightness. Given that this was a fast turnaround project, I ended up taping the electronics into the back fittings that I had designed. The LEDs were bright enough to be seen through a shirt, even after being diffused to create the classic Arc Reactor glow. Further development may result in a more quality piece that can be used as a simple costume for Halloween seasons to come."
+            ],
+            "improvements":{
+                "Improved battery holder":"While taping the electronics into the parts was temporarily effective and served sufficent purpose, the lights would occasionaly flicker due to contact issues with the conductive leads. If I were to recreate the piece, I would add an actual battery mount to better secure the button cell.",
+                "Rear Cover":"In an effort to maintain a slim piece, I decided that a rear cover was an unnecessary feature. Use and inspection of the product found that a rear cover would most likely allow for increased comfort and product durability at the expense of minimal thickness."
+            },
+            "tags":["3D Printing", "3D Modeling", "Electronics"]
+        },
+        {"title":"Chemical Formula to Atomic Mass Converter",
+            "year":2019,
+            "month":"October",
+            "pictures":[],
+            "videos":[],
+            "files":["Programs/CompoundCalculator.py"],
+            "overview":[
+                "I started this project my sophmore year of high school while taking introductory chemistry and exploring the basics of Python programming. I recognized that the tedious adding of element masses was something that could be easily done by a computer. My first program was quite rudimentary, as I had minimal programming skills at the time. It required very specific input and calculations took a long time to enter. After several years of teaching myself Python, I decided to revisit the program and add string parsing to make input easier. Now the user enters the chemical formula of a compound as it would appear in the standard notation. The program parses the string into individual elements and considers the subscripts that follow to calculate the total atomic mass of the compound. While I no longer have as much use for something that does these calculations, the project was an excellent exercise in working with strings and parsing out useful information."
+            ],
+            "improvements":{
+                "Increased data accuracy":"I did not concern myself too much with the accuracy of the values assigned to the elements."
+            },
+            "tags":["Python"]
+        },
+        {"title":"ME201 Wind Turbine",
+            "year":2019,
+            "month":"November",
+            "pictures":[
+                "Assets/ME201 Turbine/TurbineIsoView.jpg",
+                "Assets/ME201 Turbine/3TopView.jpg",
+                "Assets/ME201 Turbine/6TopView.jpg"
+            ],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "This was my first college design project, and compared to my peers, I would say that mine was well constructed and a bold shot at something unique. ME201 was an introductory class to give students a taste of what mechanical engineering is about. As a result, the turbine project was performed without knowledge of concepts fundamental to turbine design.",
+                "Most of my peers took an approach centered around catching the wind. While effective, I wanted to break from the standard approach and do things differently. In the initial research of common designs, a bladed design was a common occurence and I sought to explore such an approach.",
+                "I 3D printed the blades in vase mode to make them as light as possible, used thin wooden plates for the ends, and designed clips for the ability to change the number and angle of the blades. One of the project requirements was having variables that are changed between designs. Most people made four designs to accomodate two variables, but I made one, universal design to cut material costs. In all, the project was less than a dollar because we used scrap material and older filament that would otherwise go unused.",
+                "The turbine ended up being only moderately efficient compared to my fellow classmates, but I'm glad my project wasn't excessively expensive and got the job done."
+            ],
+            "improvements":{},
+            "tags":["3D Printing", "Lazer Cutting", "School Project"]
+        },
+        {"title":"Grade Calculator",
+            "year":2019,
+            "month":"December",
+            "pictures":[],
+            "videos":[],
+            "files":["Programs/GradeCalculator.py"],
+            "overview":[
+                "This project was a small effort to visualize the potential outcomes of grades in my first semester classes using the information that I know. The university online grade system, if set up improperly by the professor, does not truly reflect the grade achieved under the weights provided on the syllabus. I also desired the ability to see how any grade on the remainder of class material would affect my total class score and recieved grade. The program takes input from a loop, asking for points earned, total points possible, and the weight such points have on my grade. If 100% of the grades are entered it gives a final score. If the user indicates that they are done, it iterates over each percentage of the remaining points to be earned and displays final grades. The program is not without bugs, but it was a short project that worked for my needs and will be used in later semesters to gain insight into how I am performing in a class.",
+                "Because this program is not optimized, it is not recommended for use unless the code is read and understood! There are specific data entry protocols that are not protected from entry errors."
+            ],
+            "improvements":{
+                "Increased input flexibility":"Input currently must be entered in a very specific way, and bad input could result in errors. Given that I forsee this program only being used by myself, I see no need to add looser input standards or make input easier.",
+                "Cleaner user interface":"It would be nice to have a professional looking GUI if this is something that is undergoing consistent use."
+            },
+            "tags":["Python"]
+        },
+        {"title":"Lightsaber Prop",
+            "year":2020,
+            "month":"January",
+            "pictures":[
+                "Assets/Lightsaber/LightsaberModel.png"
+            ],
+            "videos":[
+                "https://www.youtube.com/embed/or3ndVVYhnE",
+                "https://www.youtube.com/embed/-2EqErd8MN8"
+            ],
+            "files":[],
+            "overview":[
+                "Pre-highschool, when I was first getting into 3D printing, I had the idea to design my own lightsaber hilt because it seemed like a complex piece that would familiarize me with the tools of 3D modeling in my quest to understand it more. I modeled a variety of designs that were foundational to skills I use on other projects now. I soon realized that this was also an excellent opporotunity to get into learning basic electronics; however, I would soon find that self-teaching and understanding the physics of electronics was a highly difficult task that I was, in my younger days, ill equipped to handle. I sidelined the project and got caught up in other things, eventually forgeting about it entirely.",
+                "Fast forward to my first semester of college, when I stumbled back upon the designs I made long ago. I recalled the goal I had and recognized that I had to see it to completion. The task was almost trivial at this point, but I had to re-educate the Arduino syntax and modify the hilt to incorporate sourced parts. Over winter break, I modified the design and used clear polycarbonate tubing for the blade. I used an Arduino Pro Mini to control the LED strip I got online and soon assembled a functional piece.",
+                "The final product is by no means well built and has some significant flaws, but its completion satisfied my inner desire to see a past, discarded project to the end. It's still really cool and I swing it around in the dark sometimes just because I feel like it. I'm glad I revisited the project and have some closure."
+            ],
+            "improvements":{
+                "Improved wire management":"I failed to consider the true amount of volume that many wires would consume inside the hilt. I feel that putting more consideration into proper wire management is the necessary next step in creating a product that is easier to open up and repair.",
+                "Easier access to internal components":"The design I settled upon uses hilt parts that screw together. This twists the wires and calls for many connections between the divided parts. A design that employs an access hatch of sorts would make the product easier to maintain and modify."
+            },
+            "tags":["3D Printing", "3D Modeling", "Electronics", "Arduino"]
+        },
+        {"title":"Virus Simulation",
+            "year":2020,
+            "month":"March",
+            "pictures":[
+                "Assets/VirusSim/SimStage1.png",
+                "Assets/VirusSim/SimStageLate.png"
+            ],
+            "videos":[],
+            "files":["Programs/ViralTransmissionSimulation.zip"],
+            "overview":[
+                "This project was inspired by an activity performed in the \"Python Data Science Handbook\" by Jake VanderPlas which I worked through over the course of four months in an effort to extend my knowledge of python into deeper and more applicable subjects.",
+                "The activity involved using Numpy methods to calculate the distance between points. Given that the Coronavirus outbreak was in full swing and social distancing was a topic discussed at length, I figured an interesting extension of the activity would be a disease spread simulation. The program randomly generates N points and constructs an NxN matrix with the distance between any two points. One point is assigned an infected tag, and the probability of spread is determined by the distance between points through a variable map. I had not covered Matplotlib at the time of exploring this project, but I managed to string together functional visualization tools.",
+                "The variable map related to the distance between points was rudimentarily experimented with, and the program showed that reduced contact reduced exponential growth significantly. Small changes in the map resulted in dramatic effects in the ability for the infection to spread.",
+                "While this project was rather simple and somewhat underdeveloped, it was an excellent exercise in working with Numpy that will no doubt come in handy for future projects. I also see this program as having very high potential for expansion as my skills with Matplotlib, machine learning, and general statistics develop."
+            ],
+            "improvements":{
+                "More powerful visualization tools":"The extent to which I implemented visualization tools was in the \"real-time\" view of the spread. A necessary addition would be the implementation of visuals that represent the simulation as a whole to give insight into the bigger picture and \"flattening the curve\".",
+                "Addition of death and max care capacity":"The current program assigns points three states: uninfected, infected, and recovered. A nice touch would be adding \"care\" because too many points are infected at once. This would make the spread more reflective of an actual pandemic situation.",
+                "Adaptive spread function":"The ability for the program to look at current and past data to refine and adapt the implemented variables would be a very cool feature and excellent exploration of machine learning techniques."
+            },
+            "tags":[]
+        },
+        {"title":"Strandbeest Mechansim",
+            "year":2020,
+            "month":"March",
+            "pictures":[],
+            "videos":[
+                "https://www.youtube.com/embed/fVfTRwHyHY0",
+                "https://www.youtube.com/embed/fqm3rb20bj8",
+                "https://www.youtube.com/embed/SxgDG0L_eIc"
+            ],
+            "files":[],
+            "overview":[
+                "ME231 was a fun little class to take that furthered and solidified my experience with 3D modeling and design. A long time ago, I saw the Strandbeest mechanism by Theo Jansen and knew at some point I would make one. The required project for this class was the construction of an existing mechanism which was perfect for me to finally build a Strandbeest mechanism. While I considered making the whole walking structure, such a pursuit was above and beyond the requirements, so I kept it simple and made one leg. I modeled and printed the parts and fixed them together with M4 screws and nuts. The first time I produced the design, I found that I failed to consider the height of the screws in the design. This was easily accomodated with minor file adjustments.",
+                "The final piece was as captivating as I imagined. At some point I also constructed the assembly of the full structure with offset leg cycles in SolidWorks because it was a slight project extension and totally worth the effort."
+            ],
+            "improvements":{},
+            "tags":["3D Printing", "3D Modeling", "Mechanism Design", "School Project"]
+        },
+        {"title":"Monitor Mount Offset",
+            "year":2020,
+            "month":"April",
+            "pictures":[
+                "Assets/Monitor Offset/MonitorOffset.jpg",
+                "Assets/Monitor Offset/OffsetPart.png"
+            ],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "This is a small part I made to fix an interfacing issue present in a monitor and arm I ordered. While both the mount and the bracket of the arm met the VESA mount specifications, ASUS inset their end for seamless integration with the provided stand. This would have been fine had the mount I orded not been slightly wider than the recession. It was such a small difference that I contemplated sanding down the bracket to make it fit, but this would violate the warranty. Should something go wrong with the stand, I would be unable to replace it.",
+                "For this reason, I made an intermediate offset part and sourced M3 screws of a longer length. I made the offset part have some surface area for contact while keeping it a quick part to print(I wanted my monitor ASAP). I could have gone overboard on the design, but it would be foolish not to keep it simple.",
+                "With the power of 3D printing and quick design skills, I was able to have a corrected interface and functional product pair a mere 3 hours after opening the individual, flawed products."
+            ],
+            "improvements":{},
+            "tags":["3D Printing", "3D Modeling"]
+        },
+        {"title":"Mom's PPE",
+            "year":2020,
+            "month":"June",
+            "pictures":[
+                "Assets/MomPPE/NewPPE.jpg",
+                "Assets/MomPPE/OldPPE.jpg"
+            ],
+            "videos":[],
+            "files":[],
+            "overview":[
+                "My mom is a healthcare worker, and the PPE she was given by her employer was clearly cheap and poorly put together. Knowing about my skills and past projects, she asked me to design and fabricate a new, more comfortable PPE.",
+                "I made a preliminary design and roughly approximated the shape and size of my mom's head. My first print failed due to printer issues, but it gave excellent insight into the flawed aspects of my approximations. The parts from the existing PPE were easy to measure accurately, so they fit into the part fine. I made some key design changes and produced another part.",
+                "The new part, by some extraordinary luck, worked exceptionally well. I insisted on making improvements to the design to fine tune its comfort and eliminate useless feature implementations, but my mom insisted that it was sufficiently comfortable and a huge improvement over her previous PPE. To date it has worked very well and I have no intent of creating an improved version unless the current one has compromised functionality."
+            ],
+            "improvements":{
+                "Removal of overthought flex design":"I implementented a compliant mechanism feature that I thought would allow for the bands to be more flexible and adjust to approximation errors, but the mechanism did not function as intended and should be removed or replaced. The plastic is sufficiently flexible to accomplish this purpose, so I think it would be sufficent to eliminate the feature.",
+                "Thicken the thin points":"There are sections of the design by the temple that I could see being a potential point of part failure.",
+                "Make slight headband adjustments":"The forward part of the head contacts could be brought in slightly to better accommodate skull contours."
+            },
+            "tags":["3D Printing", "3D Modeling"]
+        },
+        {"title":"Audio Reactive Lights",
+            "year":2020,
+            "month":"June",
+            "pictures":[],
+            "videos":[
+                "https://www.youtube.com/embed/57UVFM9cytU",
+                "https://www.youtube.com/embed/31jXqmFVEYc"
+            ],
+            "files":["Programs/AudioLights.zip"],
+            "overview":[
+                "This project was pursued out of a deep interest in music and a desire for accompanying visual stimuli in the form of a reactive LED strip. I saw a video on audio processing with Python and became fixated on making such a desire a reality.",
+                "The program samples the audio from the Stero Mix on my computer, allowing for any audio source (Spotify,etc.) to be used. A Fourier Transform is applied to the waveform to produce data about the dominant frequency present in the sound. I was then able to use the data I produced to create a variety of color mappings to send over serial connection to a microcontroller where the signal is sent to an LED strip.",
+                "So far, I have designed two quality, useable mappings with an ability to easily expand and create more. One of these uses the dominant frequency to map to a value on a Red to Blue color spectrum. The other uses the value of the dominant frequency to change the brightness of the LEDs in a cycling color wheel.",
+                "There is a lot of room for expansion of this project as I become more familiar with higher level programming and I have a lot of ideas for interesting color mapping techniques. I will be implementing this in my apartment in August, and, as a result, will need to become familiar with power distribution in order to create a safe, effective product."
+            ],
+            "improvements":{
+                "More color Mappings":"I want to pull from dominant frequency, change in dominant frequency, change in overall transform, and sound intensity to create a variety of unique color mappings.",
+                "Make program cleaner as I learn about and understand an object-oriented approach":"Given the nature of the program, a more modular system would make implementing new features easier. I want to eventually have the mappings as their own distinct classes.",
+                "User interface for easy mapping change":"A nice GUI for ease of use and user abstraction would be an important implementation for a more quality program.",
+                "Language change":"Python is not the most ideal language to use for this application, as the quality of the program is very dependent on being able to sample fast and often. I would at some point like to full switch to C++ or Java in hopes that it will make a more responsive program. There are noticeable moments where the program misses a base drop; this could be a bug in how I am sampling or a fundamental issue with using the Python language. I suspect the later."
+            },
+            "tags":["Arduino", "Electronics", "Python"]
+        },
+        {"title":"Painting Backlight",
+            "year":2020,
+            "month":"August",
+            "pictures":["Assets/Painting Backlight/SpacePainting.jpg"],
+            "videos":["https://www.youtube.com/embed/c-KjpSXTaSM"],
+            "files":[],
+            "overview":[
+                "In anticipation of moving into my apartment during the Fall of 2020, I purchased a painting from a friend who is a professional artist. As you can see, it is, standalone, a beautiful painting, but I believe that quality art must be displayed with quality in mind, so I envisioned a backlighting system to not only complement the art, but to add ambiance and mood-lighting to the room.",
+                "The painting was programmed with a variety of static and variable color modes, and the hardware consists of an Arduino Nano, LED strip, potentiometer to control brightness, and a button to cycle through modes. I 3D printed offsets with the dual purpose of giving the electronics adaquate mounting space and to provide drop so the light can be radiated from the edge.",
+                "The project as a whole came together really nicely, and there are not any changes I would make. If I were to do the project again, I would probably order a custom PCB to get experience with such a process instead of soldering togther my own. It is a bit unfortunate that there is a wire coming out of the painting to receive power, but given the permanent nature of the installation and the many LEDs, battery power would have drained fast, required maintenence, and needed many batteries to operate."
+            ],
+            "improvements":{},
+            "tags":["3D Printing", "3D Modeling", "Arduino", "Electronics"]
+        },
+        {"title":"Rick and Morty Portal Gun",
+            "year":2020,
+            "month":"August",
+            "pictures":["Assets/Portal Gun/PortalGun.jpg"],
+            "videos":["https://www.youtube.com/embed/699XIVSs0_o"],
+            "files":[],
+            "overview":[
+                "I wanted a portal gun prop from Rick and Morty, so I made one. It consists of two circuits to power the top bulb and the front LEDs. I had a lot of fun making this project and it turned out really cool. The making of the bulb core gave me some experience with free form modeling which was cool, and I plan to implement such experience in future projects."
+            ],
+            "improvements":{},
+            "tags":["3D Printing", "3D Modeling", "Electronics"]
+        },
+        {"title":"",
+            "year":0,
+            "month":"",
+            "pictures":[],
+            "videos":[],
+            "files":[],
+            "overview":[
+                
+            ],
+            "improvements":{},
+            "tags":[]
+        }
+    ]
+}

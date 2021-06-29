@@ -1,87 +1,59 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-
-  <title>Connect</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/png" href="Assets/BWLogo.png">
-  
-  <style>
-    .cardh3 {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      color: #171f3f;
-      font-size: 45px;
-      line-height: 0.25;
-    }
-
-    .cardh5 {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      color: #171f3f;
-      font-size: 20px;
-      line-height: 0.05;
-    }
-
-    .externallink {
-      position: relative;
-      display: inline-block;
-      background-color: #F8F8F8;
-      width: 250px;
-      height: 350px;
-      margin: 10px;
-      text-align: center;
-      border-radius: 10px;
-      border-color: #E0E0E0;
-      border-style: solid;
-      border-width: 10px;
-      text-decoration: none;
-    }
-  </style>
-
-</head>
-
-<body style="min-height: 950px;">
-
-  <div class="topbanner">
-    <div class="aboutandcontact">
-      <a href="about.html">About</a>
-    </div>
-    <div class="aboutandcontact">
-      <a href="contact.html">Connect</a>
-    </div>
-    <div class="homebutton">
-      <a href="index.html">Ben Wurster Project Repository</a>
-    </div>
-  </div>
-
-  <div class="mainbar">
-    <a href="student-programming-projects.html">Student Programming Projects</a>
-    <a href="student-design-projects.html">Student Design Projects</a>
-    <a href="personal-programming-projects.html">Personal Programming Projects</a>
-    <a href="personal-design-projects.html">Personal Design Projects</a>
-  </div>
-
-  <div class="container" style="height: calc(100% - 133px); background-color: #333333;">
-    <div
-      style="margin: auto; background-color:#333333; border-radius: 20px; width: max-content; transform: translate(0, 50%);">
-      <a href="mailto:bwurster@wisc.edu" class="externallink" style="margin-right: 0px;">
-        <img src="Assets/Connect Page/EmailLogo.png" style="height: 125px; margin-top: 50px;">
-        <h3 class="cardh3">Email</h3>
-        <h5 class="cardh5">bwurster@wisc.edu</h5>
-      </a>
-      <a href="https://www.linkedin.com/in/benjamin-wurster/" class="externallink" style="margin-right: 0px;">
-        <img src="Assets/Connect Page/LinkedInLogo.png" style="height: 125px; margin-top: 50px;">
-        <h3 class="cardh3">LinkedIn</h3>
-        <h5 class="cardh5">Benjamin Wurster</h5>
-      </a>
-      <a href="https://github.com/BWurster" class="externallink">
-        <img src="Assets/Connect Page/GitHubLogo.png" style="height: 125px; margin-top: 50px;">
-        <h3 class="cardh3">GitHub</h3>
-        <h5 class="cardh5">BWurster</h5>
-      </a>
-    </div>
-  </div>
-
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="root-style.css">
+        <link rel="stylesheet" href="header-style.css">
+        <link rel="stylesheet" href="contact-style.css">
+        <title id="title">Contact Me!</title>
+    </head>
+    <body>
+        <header>
+            <div class="home">
+                <a href="./index.html">Ben Wurster Projects</a>
+            </div>
+            <ul>
+                <li><a class="active" href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About Me</a></li>
+            </ul>
+        </header>
+        <div class="fill-screen">
+            <a href="mailto:bwurster@wisc.edu" class="card">
+                <div class="name">
+                    <div class="holo-1"></div>
+                    <div class="holo-2"></div>
+                    <h1>Email</h1>
+                </div>
+                <div class="img">
+                    <img src="Assets/Connect Page/EmailLogo.png">
+                </div>
+            </a>
+            <a href="https://github.com/BWurster" class="card">
+                <div class="name">
+                    <div class="holo-1"></div>
+                    <div class="holo-2"></div>
+                    <h1>GitHub</h1>
+                </div>
+                <div class="img">
+                    <img src="Assets/Connect Page/GitHubLogo.png">
+                </div>
+            </a>
+            <a href="http://www.linkedin.com/in/benjamin-wurster" class="card">
+                <div class="name">
+                    <div class="holo-1"></div>
+                    <div class="holo-2"></div>
+                    <h1>LinkedIn</h1>
+                </div>
+                <div class="img">
+                    <img src="Assets/Connect Page/LinkedInLogo.png">
+                </div>
+            </a>
+        </div>
+        <script>
+            function go(to) {
+                if('to'==='home') window.location.href = "./index.html";
+            }
+        </script>
+    </body>
 </html>

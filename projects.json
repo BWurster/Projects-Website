@@ -29,7 +29,8 @@
             "year":2018,
             "month":"November",
             "pictures":[
-                "Assets/Tape Ball Stand/TapeBall1.jpg", 
+                "Assets/Tape Ball Stand/TapeBall1.jpg",
+                null, 
                 "Assets/Tape Ball Stand/TapeBall2.jpg"],
             "videos":[],
             "files":[],
@@ -75,8 +76,7 @@
             "month":"October",
             "pictures":[
                 "Assets/Arc Reactor/ArcReactorCostume.jpg",
-                "Assets/Arc Reactor/ArcReactorTop.png",
-                "Assets/Arc Reactor/ArcReactorBack.png"
+                ["Assets/Arc Reactor/ArcReactorTop.png","Assets/Arc Reactor/ArcReactorBack.png"]
             ],
             "videos":[],
             "files":[],
@@ -109,8 +109,7 @@
             "month":"November",
             "pictures":[
                 "Assets/ME201 Turbine/TurbineIsoView.jpg",
-                "Assets/ME201 Turbine/3TopView.jpg",
-                "Assets/ME201 Turbine/6TopView.jpg"
+                ["Assets/ME201 Turbine/3TopView.jpg", "Assets/ME201 Turbine/6TopView.jpg"]
             ],
             "videos":[],
             "files":[],
@@ -121,7 +120,7 @@
                 "The turbine ended up being only moderately efficient compared to my fellow classmates, but I'm glad my project wasn't excessively expensive and got the job done."
             ],
             "improvements":{},
-            "tags":["3D Printing", "Lazer Cutting", "School Project"]
+            "tags":["3D Printing", "Laser Cutting", "School Project"]
         },
         {"title":"Grade Calculator",
             "year":2019,
@@ -146,8 +145,8 @@
                 "Assets/Lightsaber/LightsaberModel.png"
             ],
             "videos":[
-                "https://www.youtube.com/embed/or3ndVVYhnE",
-                "https://www.youtube.com/embed/-2EqErd8MN8"
+                null,
+                ["https://www.youtube.com/embed/or3ndVVYhnE","https://www.youtube.com/embed/-2EqErd8MN8"]
             ],
             "files":[],
             "overview":[
@@ -165,8 +164,7 @@
             "year":2020,
             "month":"March",
             "pictures":[
-                "Assets/VirusSim/SimStage1.png",
-                "Assets/VirusSim/SimStageLate.png"
+                ["Assets/VirusSim/SimStage1.png","Assets/VirusSim/SimStageLate.png"]
             ],
             "videos":[],
             "files":["Programs/ViralTransmissionSimulation.zip"],
@@ -181,15 +179,14 @@
                 "Addition of death and max care capacity":"The current program assigns points three states: uninfected, infected, and recovered. A nice touch would be adding \"care\" because too many points are infected at once. This would make the spread more reflective of an actual pandemic situation.",
                 "Adaptive spread function":"The ability for the program to look at current and past data to refine and adapt the implemented variables would be a very cool feature and excellent exploration of machine learning techniques."
             },
-            "tags":[]
+            "tags":["Python", "Data Science"]
         },
         {"title":"Strandbeest Mechansim",
             "year":2020,
             "month":"March",
             "pictures":[],
             "videos":[
-                "https://www.youtube.com/embed/fVfTRwHyHY0",
-                "https://www.youtube.com/embed/fqm3rb20bj8",
+                ["https://www.youtube.com/embed/fVfTRwHyHY0","https://www.youtube.com/embed/fqm3rb20bj8"],
                 "https://www.youtube.com/embed/SxgDG0L_eIc"
             ],
             "files":[],
@@ -221,8 +218,8 @@
             "year":2020,
             "month":"June",
             "pictures":[
-                "Assets/MomPPE/NewPPE.jpg",
-                "Assets/MomPPE/OldPPE.jpg"
+                ["Assets/MomPPE/NewPPE.jpg",
+                "Assets/MomPPE/OldPPE.jpg"]
             ],
             "videos":[],
             "files":[],
@@ -243,8 +240,8 @@
             "month":"June",
             "pictures":[],
             "videos":[
-                "https://www.youtube.com/embed/57UVFM9cytU",
-                "https://www.youtube.com/embed/31jXqmFVEYc"
+                ["https://www.youtube.com/embed/57UVFM9cytU",
+                "https://www.youtube.com/embed/31jXqmFVEYc"]
             ],
             "files":["Programs/AudioLights.zip"],
             "overview":[
@@ -265,7 +262,7 @@
             "year":2020,
             "month":"August",
             "pictures":["Assets/Painting Backlight/SpacePainting.jpg"],
-            "videos":["https://www.youtube.com/embed/c-KjpSXTaSM"],
+            "videos":[null, "https://www.youtube.com/embed/c-KjpSXTaSM"],
             "files":[],
             "overview":[
                 "In anticipation of moving into my apartment during the Fall of 2020, I purchased a painting from a friend who is a professional artist. As you can see, it is, standalone, a beautiful painting, but I believe that quality art must be displayed with quality in mind, so I envisioned a backlighting system to not only complement the art, but to add ambiance and mood-lighting to the room.",
@@ -279,7 +276,7 @@
             "year":2020,
             "month":"August",
             "pictures":["Assets/Portal Gun/PortalGun.jpg"],
-            "videos":["https://www.youtube.com/embed/699XIVSs0_o"],
+            "videos":[null, "https://www.youtube.com/embed/699XIVSs0_o"],
             "files":[],
             "overview":[
                 "I wanted a portal gun prop from Rick and Morty, so I made one. It consists of two circuits to power the top bulb and the front LEDs. I had a lot of fun making this project and it turned out really cool. The making of the bulb core gave me some experience with free form modeling which was cool, and I plan to implement such experience in future projects."
@@ -287,9 +284,9 @@
             "improvements":{},
             "tags":["3D Printing", "3D Modeling", "Electronics"]
         },
-        {"title":"",
+        {"title":null,
             "year":0,
-            "month":"",
+            "month":null,
             "pictures":[],
             "videos":[],
             "files":[],

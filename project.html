@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="root-style.css">
+        <link rel="stylesheet" href="header-style.css">
+        <link rel="stylesheet" href="project-body-style.css">
+        <title id="title"></title>
+    </head>
+    <body>
+        <header>
+            <div class="home">
+                <a href="./index.html">Ben Wurster Projects</a>
+            </div>
+            <ul>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About Me</a></li>
+            </ul>
+        </header>
+        <div class="background">
+            <article id="content">
+
+            </article>
+        </div>
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            projectId = parseInt(urlParams.get("project-id"));
+            fetch("projects.json")
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(data) {
+                    var project = data.projects[projectId];
+                    populatePage(project);
+                })
+                .catch(function(err){
+                    console.log('error: ' + err);
+                });
+            function populatePage(project) {
+                document.getElementById("title").innerHTML = project.title;
+                var innerString = "";
+                innerString += "<div class=\"headline\"><div class=\"content-holo-1\"></div><div class=\"content-holo-2\"></div>";
+                innerString += "<h1>" + project.title + "</h1>";
+                innerString += "<h2>" + project.month + " " + project.year.toString() + "</h2>";
+                innerString += "</div><div class=\"project-body\">";
+                for(var i=0; i<project.overview.length; i++) {
+                    if(project.pictures.length > i && project.pictures[i] != null) {
+                        innerString += "<div class=\"picture-box\">";
+                        if (typeof project.pictures[i]  === "string") {
+                            innerString += "<div><img src=\"" + project.pictures[i] + "\"></div>";
+                        } else {
+                            for(var j=0;j < project.pictures[i].length; j++){
+                                innerString += "<div><img src=\"" + project.pictures[i][j] + "\"></div>";
+                            }
+                        }
+                        innerString += "</div>";
+                    }
+                    if(project.videos.length > i && project.videos[i] != null){
+                        innerString += "<div class=\"picture-box\">";
+                        if (typeof(project.videos[i]) === "string") {
+                            innerString += "<div><iframe src=\"" + project.videos[i] + "\"></iframe></div>";
+                        } else {
+                            for(var j=0;j < project.videos[i].length; j++){
+                                innerString += "<div><iframe src=\"" + project.videos[i][j] + "\"></iframe></div>";
+                            }
+                        }
+                        innerString += "</div>";
+                    }
+                    if(i == 0) innerString += "<div class=\"pBox\"><h1>Project Overview</h1>";
+                    else innerString += "<div class=\"pBox\">";
+                    innerString += "<p>" + project.overview[i] + "</p></div>";
+                }
+                if(Object.keys(project.improvements).length > 0) {
+                    innerString += "<div class=\"pBox\"><h1>Improvement Considerations</h1><ul>";
+                    for (let [key, value] of Object.entries(project.improvements)) {
+                        innerString += "<li><b>" + key + ":</b>" + value + "</li>";
+                    }
+                    innerString += "</ul></div>";
+                }
+                innerString += "</div>";
+                if(project.files.length != 0) {
+                    for(var i=0; i<project.files.length; i++){
+                        innerString += "<div class=\"downloads\"><div class=\"content-holo-1\"></div><div class=\"content-holo-2\"></div><a href=\"" + project.files[i] + "\" download>";
+                        var regex = ".*\/(.+)$";
+                        innerString += project.files[i].match(regex)[1];
+                        innerString += "</a></div>";
+                    }
+                }
+                document.getElementById("content").innerHTML = innerString;
+            }
+            function go(to) {
+                window.location.href = "./index.html";
+            }
+        </script>
+    </body>
+</html>

@@ -1,51 +1,128 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-
-  <title>Ben Wurster Project Respository</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/png" href="Assets/BWLogo.png">
-
-</head>
-
-<body style="background-color: #333333;">
-
-  <div class="topbanner">
-    <div class="aboutandcontact">
-      <a href="about.html">About</a>
-    </div>
-    <div class="aboutandcontact">
-      <a href="contact.html">Connect</a>
-    </div>
-    <div class="homebutton">
-      <a href="index.html">Ben Wurster Project Repository</a>
-    </div>
-  </div>
-
-  <div class="mainbar">
-    <a href="student-programming-projects.html">Student Programming Projects</a>
-    <a href="student-design-projects.html">Student Design Projects</a>
-    <a href="personal-programming-projects.html">Personal Programming Projects</a>
-    <a href="personal-design-projects.html">Personal Design Projects</a>
-  </div>
-
-  <div class="container"
-    style="height: calc(100% - 133px); background-image: url('Assets/homeimage.png'); background-repeat: no-repeat; background-size: cover; background-position: center; min-height: 600px;">
-    <div class="textbox">
-      <h1 style="color: #F8F8F8;">Welcome to My Page!</h1>
-      <p style="color: #F8F8F8;">
-        This page is an effort to document the various projects I have done and will be doing in the years to come. This
-        page is self-taught, from-scratch, static HTML because I took my desire to have this page as an opportunity to
-        learn a bit about HTML web development, feel a greater sense of control over the end product, and to take pride
-        in a small personal accomplishment. The projects are divided up into different pages depending on the type and
-        setting of development. Thank you for hopefully taking the time to read through some cool things that I have
-        prided myself on completing over the past several years.
-      </p>
-    </div>
-  </div>
-  </div>
-
-</body>
-
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="root-style.css">
+        <link rel="stylesheet" href="header-style.css">
+        <link rel="stylesheet" href="main-body-style.css">
+    </head>
+    <body>
+        <header>
+            <div class="home">
+                <a href="./index.html">Ben Wurster Projects</a>
+            </div>
+            <ul>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About Me</a></li>
+            </ul>
+        </header>
+        <div class="greyback" style="margin-top: 45px;">
+            <div class="banner">
+                <div class="banner-holo-1"></div>
+                <div class="banner-holo-2"></div>
+                <div class="banner-blocks" style="margin-top: 10px;">
+                    <h1>Welcome to my projects website!</h1>
+                </div>
+                <div class=banner-blocks>
+                    <p id="welcome-banner">
+                        Pellentesque velit neque
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="highlight"></div>
+        <div id="projects" class="projects">
+            <div class="project-item">
+                <div class="image-container">
+                    <img src="Assets/noimage.jpg">
+                </div>
+                <div class="content">
+                    <div class="content-back"></div>
+                    <div class="content-holo-1"></div>
+                    <div class="content-holo-2"></div>
+                    <div class="fields">
+                        <div class="name-date">
+                            <h1>Title</h1>
+                            <h2>Date 2020</h2>
+                        </div>
+                        <div class="tags">
+                            <h3>Test 1</h3>
+                            <h3>Test 2</h3>
+                            <h3>Test 3</h3>
+                            <h3>Test 4</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            fetch("info.json")
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    processInfo(data);
+                })
+                .catch(function(err){
+                    console.log('error: ' + err);
+                });
+            function processInfo(data) {
+                document.getElementById("welcome-banner").innerHTML = data.welcome;
+            }
+            fetch("projects.json")
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(data) {
+                    var projects = data.projects;
+                    populateProjects(projects);
+                })
+                .catch(function(err){
+                    console.log('error: ' + err);
+                });
+            function populateProjects(projects) {
+                var totalInner = "";
+                var contents = "";
+                for(var i=projects.length-1; i>=0; i--){
+                    console.log("mark" + i.toString());
+                    var item = projects[i];
+                    contents = "<div class=\"project-item\" onclick=\"openPage(" + i.toString() + ")\"><div class=\"image-container\">";
+                    if(item.title != null) {
+                        if(item.pictures.length > 0) {
+                            if(typeof item.pictures[0] === 'string'){
+                                contents += "<img src=\"";
+                                contents += item.pictures[0];
+                                contents += "\">";
+                            } else {
+                                contents += "<img src=\"";
+                                contents += item.pictures[0][0];
+                                contents += "\">";
+                            }
+                        } else {
+                            contents += "<img src=\"Assets/noimage.jpg\">";
+                        }
+                        contents += "</div><div class=\"content\"><div class=\"content-back\"></div><div class=\"content-holo-1\"></div><div class=\"content-holo-2\"></div><div class=\"fields\"><div class=\"name-date\"><h1>";
+                        contents += item.title;
+                        contents += "</h1><h2>";
+                        contents += item.month + " " + item.year.toString();
+                        contents += "</h2></div><div class=\"tags\">";
+                        tagArr = item.tags
+                        for(var j=0; j<tagArr.length; j++){
+                            contents += "<h3>" + tagArr[j] + "</h3>";
+                        }
+                        contents += "</div></div></div></div>";
+                        totalInner += contents;
+                    }
+                }
+                document.getElementById("projects").innerHTML = totalInner;
+            }
+            function openPage(num) {
+                window.location.href = "./project.html?project-id=" + num.toString();
+            }
+        </script>
+    </body>
 </html>

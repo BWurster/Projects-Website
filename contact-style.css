@@ -1,17 +1,24 @@
 .fill-screen {
     position: relative;
-    width: 100%;
+    width: calc(100% - 30px);
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 15px;
+}
+
+.wrap {
+    position: relative;
+    display: block;
+    margin: 0px;
 }
 
 .card {
     text-decoration: none;
     position: relative;
-    display: flex;
+    display:flex;
     flex-direction: column;
     width: 240px;
     height: 300px;

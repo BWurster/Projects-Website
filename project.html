@@ -60,10 +60,10 @@
                     if(project.videos.length > i && project.videos[i] != null){
                         innerString += "<div class=\"picture-box\">";
                         if (typeof(project.videos[i]) === "string") {
-                            innerString += "<div><iframe src=\"" + project.videos[i] + "\"></iframe></div>";
+                            innerString += "<div><iframe src=\"" + project.videos[i] + "\" allowfullscreen></iframe></div>";
                         } else {
                             for(var j=0;j < project.videos[i].length; j++){
-                                innerString += "<div><iframe src=\"" + project.videos[i][j] + "\"></iframe></div>";
+                                innerString += "<div><iframe src=\"" + project.videos[i][j] + "\" allowfullscreen></iframe></div>";
                             }
                         }
                         innerString += "</div>";

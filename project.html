@@ -58,12 +58,13 @@
                         innerString += "</div>";
                     }
                     if(project.videos.length > i && project.videos[i] != null){
-                        innerString += "<div class=\"picture-box\">";
                         if (typeof(project.videos[i]) === "string") {
-                            innerString += "<div><iframe src=\"" + project.videos[i] + "\" allowfullscreen></iframe></div>";
+                            innerString += "<div class=\"picture-box\">";
+                            innerString += "<div><div class='vid-frame'><iframe src=\"" + project.videos[i] + "\" allowfullscreen></iframe></div></div>";
                         } else {
+                            innerString += "<div class=\"picture-box\" style='flex-wrap: wrap;'>";
                             for(var j=0;j < project.videos[i].length; j++){
-                                innerString += "<div><iframe src=\"" + project.videos[i][j] + "\" allowfullscreen></iframe></div>";
+                                innerString += "<div><div class='vid-frame'><iframe src=\"" + project.videos[i][j] + "\" allowfullscreen></iframe></div></div>";
                             }
                         }
                         innerString += "</div>";

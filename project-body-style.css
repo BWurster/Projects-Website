@@ -87,8 +87,12 @@
 }
 
 .picture-box div {
-    max-width: 100%;
-    margin: 0px 10px 0px 10px;
+    position: relative;
+    display: block;
+    max-width: calc(100% - 20px);
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .picture-box div img {
@@ -97,14 +101,24 @@
     max-height: 500px;
     object-fit: contain;
     border: none;
-    padding: none;
 }
 
-.picture-box div iframe {
-    height: 500px;
-    width: auto;
-    border: none;
-    padding: none;
+.vid-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-width: 150px;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.vid-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .downloads {

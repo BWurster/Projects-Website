@@ -284,6 +284,26 @@
             "improvements":{},
             "tags":["3D Printing", "3D Modeling", "Electronics"]
         },
+        {"title":"LED Array",
+            "year":2021,
+            "month":"June",
+            "pictures":["Assets/LED Array/Thumb.png"],
+            "videos":[null, null, null, "https://www.youtube.com/embed/nz-78IWbqNY"],
+            "files":[],
+            "overview":[
+                "Over the course of my time participating in the inevitable shenanigans of a typical college sophomore, I acquired a bulk supply of ping pong balls. In my material science classes I learned about the close packing configurations of atoms in a metallic lattice, and I thought, \"I should make an LED array with each ping pong ball backlit by a single addressable LED.\" I had all of the supplies necessary and assumed that it would be a small project. Little did I know it would lead me down a path of implementing complex patterns, structures, or rules of self governance for the LEDs.",
+                "The first interesting hurdle was the frame. I wanted to 3D print a frame to hold the balls in a specific position. I did not want to waste filament, so I cut out any areas I could while maintaining relative structural integrity. I went for a \"milled piece of metal\" vibe despite my lack of a mill. I emulated it as best I could with a 3D printer and did a superb job picking a metallic paint finish.",
+                "Wiring up the array was also a challenge. I learned from my \"Audio Reactive Lights\" project that I could not run power a significant distance from the distribution board without experiencing browning due to voltage drop. I still wanted to run all elements in a single line for ease of programming(more on this latter), but I managed to rig up relatively efficient power distribution by running smaller strips in parallel.",
+                "In programming the array, I implemented 8 unique modes, each with their own character and vibe to accomodate a variety of moods and environments:<ol><li><b>Plinko:</b> The game plinko. A randomly colored element spawns in a random position at the top and proceeds to make a binary decision for the direction to go with each fall. It is a very chill mode and is nice to just have running in the background. It's not too fast, it's not too slow, it's just going on.</li><li><b>Fireworks:</b> This mode is just a firework effect. It is a little more flashy and upbeat.</li><li><b>Snake:</b> This mode is an implementation of a mediocre snake algorithm. In hindsight, it would have been better to have the array generate a graph structure on setup, as then I could run Dijkstra's algorithm to always find the best path and make a perfect snake, but this would require a complete code rework, and I am sufficently happy with the project as is.</li><li><b>Heat Waves:</b> This mode is just pulsating red \"heat\" waves. I think of it as almost calming and meditative. It gives off a very interesting vibe for sure!</li><li><b>Rainbow Shimmer:</b> This mode is an RGB color wheel, but the pixels update randomly to the present state of the wheel, so the transitions have a cool shimmer effect going on. Kinda trippy at times, but I like the uniqueness of it.</li><li><b>Roots:</b> This mode is an ultra-slow growth mode. The changing of states is almost unnoticeable as the roots get bigger.</li><li><b>Conway's Game of Life:</b> I implemented a modified version of Conway's game of life into my array. This mode is really cool because out of the randomness and simple ruleset, very complex patterns can arise. I could add deeper checks for infinite looping structures, but I decided to let the loops continue to exist so that I can notice them, appreciate them, and then manually reset the game.</li><li><b>Water Drops:</b> This mode was recommended by my friend Matt. They are like water dropplets. This mode reminds me of disturbed bioluminescent algae, so I am glad that I implemented this one on top of the other seven that I initially planned.</li></ol>",
+                "Finally, I printed some electronics mounts and wall offsets to hold up the array in a way that allows the backlighting LED's to radiate outwards but not be too imposing.",
+                "This was a very fun project that used a lot of skills that I already have. It was nice to revisit Arduino after becoming very familiar with the C programming language after taking a class around it. I almost utilized dynamic memory allocation before realizing a more convenient solution."
+            ],
+            "improvements":{
+                "Graph data structure":"Like I mentioned above, recognizing that the use of a graph would make my life infinitely easier from the beginning would have been nice. Unfortunately, this requires a full code rework; code which already works fine, so I don't care too much about reconfiguring it.",
+                "The use of smaller electronics and a custom PCB": "I have always wanted to custom order a PCB to get experience with the process, but I just harvested the electronics from a previous, unused project and replaced a few components for an easy hardware solution."
+            },
+            "tags":["3D Printing", "3D Modeling", "Arduino", "Electronics"]
+        },
         {"title":null,
             "year":0,
             "month":null,

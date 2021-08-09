@@ -304,6 +304,25 @@
             },
             "tags":["3D Printing", "3D Modeling", "Arduino", "Electronics"]
         },
+	{"title":"FPV Drone",
+            "year":2021,
+            "month":"August",
+            "pictures":["Assets/Drone/Drone.jpg"],
+            "videos":[null, null, null, null, null, "https://www.youtube.com/embed/3Z0yGD4Lq7s"],
+            "files":[],
+            "overview":[
+                "A long time goal of mine has been to build an FPV racing/freestyle drone. With some free time in my summer, I committed myself to the task. A big hurdle in entering the hobby is the knowledge it takes to address issues as they arise and reach out if an issue is not understood. Figuring out how all of the parts interface is a massive undertaking, but in the end a very fulfilling one.",
+		"I started by getting a radio transmitter and the \"DRL Racing Simulator\" to learn how to fly while assessing parts necessary to complete a build. A standard drone ultimately has the following parts: <ul><li>Flight controller, the \"brains\" per se of the drone</li><li>Electronic speed controller(ESC), to manage power and motor speed</li><li>Motors</li><li>Video transmitter</li><li>Camera</li><li>Radio Receiver</li><li>Carbon fiber frame</li><li>LiPO battery</li><li>Lots of propellers</li></ul>",
+		"I recieved the video feed via a USB video receiver. I am far too broke to buy fancy FPV goggles, and this USB dongle is recognized by my computer as a camera. This may give way to future projects involving automated drone control, and for the moment I can record the not-so-crispy analog video feed.",
+		"I assembled everything according to many cross referenced tutorials online. I still made plently of mistakes though. The spacial organization of the drone parts within the frame is critical to consider ahead of time. I started assembling things before thinking the build completely through and in a way ran out of space on the frame. Thankfully, with access to my 3D printer, I was able to construct brackets and elevated mounts to create more space vertically. In this way, it worked out well; my quad has good weight balance and the parts feel very secure.(*ominous foreshadowing of future issues*)",
+		"Once everything was in place, I ran standard software checks. I struggled to get my radio to bind to the drone; however, after going through a lengthy process to flash legacy firmware on both devices, I finally had everything bound and could take to the skies!",
+		"My first flight was brief, and ended in fire and blood--figuratively(the drone died). My components, it turns out, were not secure. The cable of the LiPO battery was far too long and got caught in the propellers of the drone, yanking the live, high-voltage power cable out mid-flight. This created a large, audible spark that clearly melted the power connectors of both the battery and the drone. I fixed said connectors but ran into issues once again. As it turns out, my ESC was fried. I ordered a new one and patched it in. Before going for my next flight, as an inexperienced pilot, I decided to add some additional safety procautions in the form of blade guards.",
+		"Today, on my second, most-recent flight, I crashed a lot, but the better managed power cable and prop guards allowed the drone to get back up time and time again. Eventually, the prop guards broke. This was expected, as I was putting them through crazy crashes as a result of how bad I am. I have since removed the guards and feel confident enough to fly without them, at least when over grass.",
+		"Overall, I have built a robust quadcopter, and I am excited to extend its use into other image recognition, controls, and 3D printing projects that I see being interesting to pursue in the future."
+            ],
+            "improvements":{},
+            "tags":["Electronics", "3D Printing"]
+        },
         {"title":null,
             "year":0,
             "month":null,

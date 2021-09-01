@@ -323,6 +323,19 @@
             "improvements":{},
             "tags":["Electronics", "3D Printing"]
         },
+        {"title":"Motion Detection Program",
+            "year":2021,
+            "month":"August",
+            "pictures":["Assets/Motion/motion.png"],
+            "videos":[],
+            "files":["Programs/motion.py"],
+            "overview":[
+                "In a way, I started this project in March of 2021 while learning OpenCV. I had the idea to use significant changes in pixel values to visualize and isolate motion in a video. I envisioned it looking very cool, but in my initial 5 minutes of development, I was not getting the results I expected. I ditched the project and continued my personal exploration of OpenCV, seemingly forgetting about the initial idea.",
+                "Fast forward to August of 2021 when I was telling my roommate Prannav who is trying to learn OpenCV about the idea. He wanted me to send him the code so he could learn from it and possibly work on it. He made a few tweaks and suddenly the program was looking promising. There was, however, a noise issue that we could not get around. Eventually, we determined that the error lied in unsigned integer overflow when calculating the difference from frame to frame. With a few more aesthetic tweaks, it came out just as I had initally imagined. All it took to see it through was a little bit of collaboration with someone else with a similarly placed passion. I highly recommend you download it and play with it if you have a basic understanding of how to run Python programs and manage necessary imports. It was a short, fun project to complete with my roommate that will no doubt lead to more exciting computer vision collaborations between us in the future."
+            ],
+            "improvements":{},
+            "tags":["Python", "Computer Vision"]
+        },
         {"title":null,
             "year":0,
             "month":null,

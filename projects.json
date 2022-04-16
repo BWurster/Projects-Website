@@ -339,7 +339,7 @@
         {"title":"LED \"Neon\" Sign",
             "year":2022,
             "month":"January",
-            "pictures":[],
+            "pictures":["Assets/neonsign.png"],
             "videos":["https://www.youtube.com/embed/tx11G9WPark"],
             "files":[],
             "overview":[
@@ -353,7 +353,7 @@
         {"title":"Ronk and Marty Portal Basketball",
             "year":2022,
             "month":"February",
-            "pictures":[],
+            "pictures":["Assets/ronkandmarty.png"],
             "videos":[null, "https://www.youtube.com/embed/x10qsNHaHNs"],
             "files":[],
             "overview":[

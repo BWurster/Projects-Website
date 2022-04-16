@@ -340,14 +340,14 @@
             "year":2022,
             "month":"January",
             "pictures":["Assets/neonsign.png"],
-            "videos":[null,null,null,"https://www.youtube.com/embed/tx11G9WPark"],
+            "videos":[null,null,"https://www.youtube.com/embed/tx11G9WPark"],
             "files":[],
             "overview":[
                 "My roommate was rather jealous of the aesthetic of my room, so being the benevolent roommate that I am, I wanted to make him a glowing wall element of his very own. He is a pre-med student majoring in biology, and he absolutely loves the structure of DNA. I also find the double helix to have a nice appeal, so I figure there is nothing better to turn into a glowing wall fixture than that.",
                 "I have known about silicone-coated, diffused LED strips for some time, but have never had sufficient reason to work with them until this project. Overall, the project was minimal technically; it consists of the aforementioned diffused LED strips mounted in a 3D printed backing to give the segments their shape. The hardest part of the project was the creation of smart, contiguous wiring paths and the tedious process of cutting and soldering the segments together.",
                 "Upon completion, the project came out really nice. My roommate loves it and now brags about the aesthetic of his room to anyone who will listen. I didn't gain much from this project, but it was still fun to do and helped to keep my design skills sharp in a time when I am doing a lot of coding related projects for school."
             ],
-            "improvements":{"Use white wire":"I had to design the piece with black wire showing out the front of the white background. When the light is off, this black wiring shows. If I had more resources and time desired to allocate to this project, I would get some white wire. The 4 strand stuff I had otherwise worked perfect though."},
+            "improvements":{"Use white wire":" I had to design the piece with black wire showing out the front of the white background. When the light is off, this black wiring shows. If I had more resources and time desired to allocate to this project, I would get some white wire. The 4 strand stuff I had otherwise worked perfect though."},
             "tags":["Electronics", "3D Printing"]
         },
         {"title":"Ronk and Marty Portal Basketball",

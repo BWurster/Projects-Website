@@ -60,7 +60,7 @@
         </div>
         
         <script>
-            fetch("info.json")
+            fetch("./info.json")
                 .then(function(response) {
                     return response.json();
                 })
@@ -73,7 +73,7 @@
             function processInfo(data) {
                 document.getElementById("welcome-banner").innerHTML = data.welcome;
             }
-            fetch("projects.json")
+            fetch("./projects.json")
                 .then(function(response) {
                     return response.json();
                 })

@@ -376,7 +376,7 @@
                "The control algorithm, put simply, calculates the current rotation of the motors from quadrature encoder data and then from basic geometry determines the change in the length of the lines that must occur. By knowing the diameter of the spools, we can calculate exactly how much the motors must rotate and drive them until the sufficient delta has been achieved. For a more detailed explanation, I encourage you to read the three page project report that can be downloaded from the button below. It covers issues encountered and further goals for expansion should time have permitted."
             ],
             "improvements":{},
-            "tags":[]
+            "tags":["School", "3D Printing", "Electronics", "Python", "Microcontrollers", "ROS"]
         },
         {"title":null,
             "year":0,

@@ -364,14 +364,16 @@
             "improvements":{},
             "tags":["Python", "OpenCV", "Web Development"]
         },
-        {"title":null,
+        {"title":"Hangrob",
             "year":2022,
             "month":"May",
-            "pictures":[],
+            "pictures":["Assets/Hangrob/hangrob.jpg"],
             "videos":[null, "https://www.youtube.com/embed/asRCchJsjSQ"],
-            "files":[],
+            "files":["Assets/Hangrob/hangrob_report.pdf"],
             "overview":[
-                
+               "This was the final project for my ME \"439: Introduction to Robotics\" class at UW-Madison. During the term of this class, we primarily covered two different robot types: mobile robots and robot arms. Through these applications, we learned about PID control, closed-loop control, dead-reckoning, inverse kinematics, obstacle avoidance algorithms, and more. The final project was open ended, so in taking inspiration from hanging cameras at football games and delta-style 3D printers, my group member and I decided to build a hanging robot with the objective of drawing on a whiteboard. We wanted to restrict the robot to a 2D space for simpler math implementation under the time constarint of the final project. The motor interface could be easily taken from the mobile robot and with some knowledge of basic geometry, we could easily create a simple control algorithm.",
+               "We designed the physical robot to be well balanced, always keeping the marker in contact with the board. This was done by keeping a low and far back center of mass from the thread guides that ensured that the line was properly fed onto the motor spools. We did not put significant effort into refining the physical time due to time constraints, but we had a functional physical prototype to build the control algorithm into.",
+               "The control algorithm, put simply, calculates the current rotation of the motors from quadrature encoder data and then from basic geometry determines the change in the length of the lines that must occur. By knowing the diameter of the spools, we can calculate exactly how much the motors must rotate and drive them until the sufficient delta has been achieved. For a more detailed explanation, I encourage you to read the three page project report that can be downloaded from the button below. It covers issues encountered and further goals for expansion should time have permitted."
             ],
             "improvements":{},
             "tags":[]
